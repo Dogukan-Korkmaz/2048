@@ -9,11 +9,11 @@ $tile-border-radius: 3px;
 
 $mobile-threshold: $field-width + 20px;
 
-$text-color: #776E65;
-$bright-text-color: #f9f6f2;
+$text-color: #176E63;
+$bright-text-color: #29f6a2;
 
-$tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-color: #eee4d1;
+$tile-gold-color: #8dc92e;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
@@ -95,7 +95,7 @@ h1.title {
   .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: rgb(0, 255, 55);
     font-size: $height;
     line-height: $height;
     font-weight: bold;
